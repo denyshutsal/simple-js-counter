@@ -1,0 +1,23 @@
+{
+  "name": "js-counter",
+  "homepage": "https://denyshutsal.github.io/simple-js-counter",
+  "version": "1.0.0",
+  "description": "simple javascript counter",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denyshutsal/simple-js-counter.git"
+  },
+  "author": "Denys Hutsal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denyshutsal/simple-js-counter/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

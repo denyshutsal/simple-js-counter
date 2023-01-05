@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  background-color: rgb(227, 227, 227);
+  font-weight: bold;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;  
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn {
+  width: 200px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.increment-btn {
+  background-color: rgb(145, 2, 2);
+}
+
+.save-btn {
+  background-color: rgb(1, 99, 1);
+}
+
+.count {
+  font-size: 50px;
+}
+
+.logs {
+  font-size: 20px;
+  overflow-wrap: break-word;
+}
+
+
